@@ -1,3 +1,7 @@
+function mostrarAviso() {
+	$('#modal_aviso').modal('show')
+}
+
 class Despesa {
 	constructor(ano, mes, dia, tipo, descricao, valor) {
 		this.ano = ano
